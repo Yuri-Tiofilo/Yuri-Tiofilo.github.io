@@ -15,11 +15,13 @@ body {
 strong {
   font-size: 26px;
   color: #222;
+  text-align: center;
 }
 span {
   font-size: 14px;
   font-weight: normal;
   color: #555;
+  text-align: center;
 }
 .container {
   padding: 20px;
@@ -30,7 +32,7 @@ span {
 .profile {
   display: flex; 
   flex: 1;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -43,7 +45,6 @@ span {
 .noticies {
   display: flex;
   flex: 3;
-  background: #444;
   height: 600px;
   flex-direction: column;
   justify-content: center;
@@ -53,5 +54,6 @@ span {
   height: 70px;
   width: 70px;
   border-radius: 30px;
+  margin-bottom: 20px;
   /* border-radius: 500px; */
 }
