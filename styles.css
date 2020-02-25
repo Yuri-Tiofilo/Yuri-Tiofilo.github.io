@@ -1,0 +1,30 @@
+* {
+  margin:0;
+  padding:0;
+  outline:0;
+  box-sizing:border-box;
+  font-family: 'Roboto';
+}
+
+body {
+  background-color: #fff;
+  min-height:100%;
+  -webkit-font-smoothing: antialiased !important;
+}
+.container {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+.profile {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+
+}
+.noticies {
+  display: flex;
+  flex: 4;
+  flex-direction: column;
+}
