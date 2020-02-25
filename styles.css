@@ -11,6 +11,15 @@ body {
   min-height:100%;
   -webkit-font-smoothing: antialiased !important;
 }
+strong {
+  font-size: 16px;
+  color: #222;
+}
+span {
+  font-size: 14px;
+  font-weight: normal;
+  color: #555;
+}
 .container {
   padding: 10px;
   display: flex;
@@ -18,13 +27,26 @@ body {
   flex: 1;
 }
 .profile {
-  display: flex;
-  flex-direction: column;
+  display: flex;  
   flex: 1;
-
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.profile2 {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin-left: 10px;
 }
 .noticies {
   display: flex;
   flex: 4;
   flex-direction: column;
+}
+.image {
+  height: 50px;
+  width: 50px;
+  border-radius: 30px;
+  /* border-radius: 500px; */
 }

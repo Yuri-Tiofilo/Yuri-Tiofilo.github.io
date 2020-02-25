@@ -1,0 +1,3 @@
+function moreDetails() {
+  location.href()
+}
