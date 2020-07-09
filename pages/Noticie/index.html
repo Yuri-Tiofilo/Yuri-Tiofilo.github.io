@@ -23,20 +23,106 @@
     </div>
     <div class="noticies">
       <h2>Primeiros passos no React Native</h2>
-      <h3>Mais afinal o que é o React Native?</h3>
-      <p>
+      <div class="title-paragraph">
+        <h3 style="margin-top: 20px;">Mais afinal o que é o React Native?</h3>
+      </div>
+      <p class="paragraph" style="margin-top: 20px;">
         O React Native é um projeto que foi desenvolvidos pelo Facebook 
         e consiste em uma série de ferramentas que viabilizam a criação de 
         aplicações móveis nativas para a plataforma iOS e Android, utilizando o que há 
-        de mais moderno no desenvolvimento Front-end ? mirando no futuro. 
+        de mais moderno no desenvolvimento Front-end, mirando no futuro. 
         É o estado da arte no que se refere ao desenvolvimento mobile baseado em JavaScript.     
       </p>
-      <p>
+      <p class="paragraph" style="margin-top: 20px;">
         A stack do React Native é poderoso, pois nos permite utilizar ECMAScript 6, 
         CSS Flexbox, JSX, diversos pacotes do NPM e muito mais. Sem contar que nos 
         permite fazer debug na mesma IDE utilizada para o desenvolvimento nativo 
         com essas plataformas (além de tornar o processo extremamente divertido).
       </p>
+
+      <div class="title-paragraph">
+
+        <h3 style="margin-top: 20px;">
+          Mais como iniciar um projeto no React Native?
+        </h3>
+
+      </div>  
+
+      <p class="paragraph" style="margin-top: 20px;">
+        Para iniciar um projeto segundo a comunidade não é necessário instalar a CLI do React Native,
+        basta executar o comando por meio do pacode NPM ou Yarn. Abaixo temos o comando necessário
+        para realizar isto:
+      </p>
+
+
+      <div class="code-info">
+        <span class="comand">
+          npx 
+        </span>
+        <span class="code">
+          react-native init nomeApp
+        </span>
+      </div>
+
+      <p class="paragraph" style="margin-top: 30px;">
+        O comando acima é quando você utiliza um template com a linguagem de programação JavaScript, quando você
+        necessita de um template utilizando TypeScript, basta realizar o comando:
+      </p>
+
+      <div class="code-info">
+        <span class="comand">
+          npx 
+        </span>
+        <span class="code">
+          react-native init nomeApp --template react-native-template-typescript
+        </span>
+      </div>
+
+      <p class="paragraph" style="margin-top: 30px;">
+        Assim temos a criação de um projeto React Native com apenas um comando, claro que isso poderá levar alguns
+        minutos. Porém já vem configurado todo o ambiente básico para inicializar o projeto. 
+      </p>
+
+      <p class="paragraph" style="margin-top: 20px;">
+        Após isso basta iniciar o comando para entrar na pasta do projeto ao qual foi criado. E rodar o comando 
+        que irá iniciar seu emulador caso não tenha conectado nenhum disposito ao seu computador. O comando a ser dados é:
+      </p>
+
+      <div class="code-info">
+        <span class="comand">
+          yarn 
+        </span>
+        <span class="code">
+          android
+        </span>
+        
+      </div>
+
+      <p style="width: 100%;margin-top: 20px;margin-bottom: 20px;">
+        Ou caso estaja em um ambiente do Mac:
+      </p>
+      <div class="code-info">
+        <span class="comand">
+          yarn 
+        </span>
+        <span class="code">
+          ios
+        </span>
+      </div>
+
+      <p class="paragraph" style="width: 100%;margin-top: 20px;margin-bottom: 20px;">
+        Com isso teremos o seguinte resultado: A abertura de Bundle e a do emulador rodando o aplicativo criado.
+      </p>
+
+      <img src="../../assets/image_site2.png" alt="sistema" height="500" width="900" style="margin-top: 10px;margin-bottom: 10px;">
+
+      <p class="paragraph" style="width: 100%;margin-top: 20px;margin-bottom: 30px;">
+       Ai está seu aplicativo...Agora basta seguir mais alguns tutoriais aqui do nosso blog para desenvolver um aplicativo TOP...
+      </p>
+
+      <footer style="margin-bottom: 30px;">
+        Autor: Yuri Silva - desenvolvedor Front-End
+      </footer>
     </div>
   </div>
 </body>

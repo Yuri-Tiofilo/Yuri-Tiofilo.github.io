@@ -29,6 +29,7 @@ span {
   flex-direction: row;
   justify-content: center;
   align-items: flex-start;
+  
 }
 .profile {
   display: flex; 
@@ -93,10 +94,57 @@ span {
   height: 120px;
   width: 900px;
   cursor:pointer;
+  
+  
 }
+
+.noticies {
+  /* overflow-y: scroll; */
+}
+
 .noticies button:hover {
   background-color: #f4f4f4
 }
 h2 {
   font-size: 26px;
+  margin-bottom: 15px;
+}
+h3 {
+  margin-bottom: 10px;
+  text-align: left;
+}
+p {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.title-paragraph {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.code-info {
+  display: flex;
+  width: 100%;
+  background-color: #9e9d9d28;
+  border-radius: 10px;
+  flex-direction: row;
+  align-items: center;
+  padding: 15px;
+  /* justify-content: center; */
+}
+
+.paragraph {
+  text-align: justify;
+}
+
+.comand {
+  color: rgb(253, 187, 7);
+  font-weight: 600;
+}
+
+.code {
+  padding-left: 5px;
+  font-weight: 600;
 }
